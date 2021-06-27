@@ -1,6 +1,7 @@
 # Robotic-Arm-Control-Panel
 I started on a project of creating a robotic arm and controlling it online. On the controlling and programming side of things i decided to choose Python as my programming language for this task and MySQL to create my database. 
 I started with the UI first then created the database and after that i connected the two together which i will explain below.
+I should note that each subtask has its own file and the code and pictures associated with the subtask are within the files.
 
 # User-Interface
 I started by importing the tkinter library in Python to create and customize my UI. I first created my window and chose the title, the size and the color. 
