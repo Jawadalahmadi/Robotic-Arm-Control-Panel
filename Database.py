@@ -11,16 +11,14 @@ mydb=mysql.connector.connect(
 mycursor = mydb.cursor()
 
 mycursor.execute("CREATE DATABASE robotdb")
-#After creating the databases we Create table inside of it like the following:
+#After creating the databases we comment out the previous command and we return to the connection phase above and we add the database's name.
+#Then we go to the next step: we Create table inside of it like the following:
 #mycursor.execute("CREATE TABLE motor (name VARCHAR(255), degree INTEGER(10), Status VARCHAR(255))")
-#After creating the databases and the table we gove the command to show them to us to ensure they exist:
+#Again we comment out the table creation command. Then after creating the databases and the table we give the command to show them to us to ensure they exist. 
+#(Note these two commands cant run all at once):
 #mycursor.execute("SHOW DATABASES")
 #mycursor.execute("SHOW TABLES")
 #Then we give the print command like this:
-    
+
 for tb in mycursor:
     print(tb)
-
-
-
-
